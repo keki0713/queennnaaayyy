@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "SF-Pro";
+    src: url("font/SFPRODISPLAYREGULAR.OTF");
+}
+
+nav {
+    font-family: 'SF-Pro';
+
+    color: white;
+    background-color: rgb(27.5 27.5 27.5);
+
+    box-shadow: 0 1px 10px black;    
+    
+    height: 90px;
+    width: 100%;
+    
+    display: grid;
+    grid-template-columns: 3.75fr 0.25fr 0.5fr 0.5fr 0.25fr 0.5fr 1.75fr;
+    gap: 50px;
+    
+    position: sticky;
+    top: 0;
+}
+
+nav h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    font-size: 17.5px;
+    color: rgba(255, 255, 255, 0.6);
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    transition: 0.5s;
+}
+
+nav a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.circle  {
+    height: 50px;
+    width: 50px;
+
+    background-color: grey;
+    border-radius: 50px;
+}
